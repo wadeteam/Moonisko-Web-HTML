@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Votefromblaze - MOON</title>
+    <title>redirectidsupportserver - MOON</title>
+    <title>Odpočet</title>
     <meta
       name="description"
       content="First BTC Earning platform build on Discord."
     />
-    <meta property="og:title" content="Votefromblaze - MOON" />
+    <meta property="og:title" content="redirectidsupportserver - MOON" />
     <meta
       property="og:description"
       content="First BTC Earning platform build on Discord."
@@ -15,6 +16,8 @@
       property="og:image"
       content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b8b9a464-b5ab-4443-ace0-8a57311a2c10/1301e360-4b0d-4160-bf08-279960bce197?org_if_sml=1"
     />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -60,10 +63,10 @@
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./votefromblaze.css" rel="stylesheet" />
+      <link href="./redirectidsupportserver.css" rel="stylesheet" />
 
-      <div class="votefromblaze-container">
-        <nav class="navbar-navbar navbar-root-class-name2">
+      <div class="redirectidsupportserver-container">
+        <nav class="navbar-navbar navbar-root-class-name4">
           <div class="navbar-container">
             <h1 class="navbar-text"><span>MOON</span></h1>
             <h1 class="navbar-text1"><span>-BOT.EU</span></h1>
@@ -193,45 +196,50 @@
             </div>
           </div>
         </nav>
-        <div class="votefromblaze-container1">
-          <div class="votefromblaze-container2">
-            <img
-              alt="image"
-              src="public/Branding/moonlogo-200h.png"
-              class="votefromblaze-image"
-            />
-            <h1 class="votefromblaze-text">+</h1>
-            <img
-              alt="image"
-              src="https://cdn.discordapp.com/attachments/985557139814768641/1157387354894499860/sketch-1696013027739.png?ex=65186c78&amp;is=65171af8&amp;hm=ffbe2a9af98ebd45197e34834dd0bff425c1ae1656a9360bbecf7711d91974e1&amp;"
-              class="votefromblaze-image1"
-            />
-          </div>
-          <h1 class="votefromblaze-text1">Vote for MOON</h1>
-          <h1 class="votefromblaze-text2">
-            <span class="votefromblaze-text3">
-              MOON is our second project we are working on. It allows its users
-              to earn BTC via Discord, with Lightning-Network support. You can
-              vote for MOON on the Top.GG website, you will also get a small
-              reward.
-            </span>
-            <br class="votefromblaze-text4" />
-            <span class="votefromblaze-text5"></span>
-            <span class="votefromblaze-text6">
-              We noticed that you clicked through to Blaze-Faucet, so you will
-              get the reward to your Blaze Wallet.
-            </span>
-          </h1>
-        </div>
-        <h1 class="votefromblaze-text7">You will be redirected in 10s..</h1>
-        <div class="votefromblaze-container3">
-          <div class="votefromblaze-get-started get-started">
-            <a
-              href="https://top.gg/bot/985543692402188348/vote"
-              class="votefromblaze-text8"
-            >
-              Continue
-            </a>
+        <div class="redirectidsupportserver-container1">
+          <div class="redirectidsupportserver-container2">
+            <div class="redirectidsupportserver-container3">
+              <style>
+                body {
+                    font-family: 'Arial', sans-serif; /* Použijeme font podobný Spotify */
+                    text-align: center;
+                    background-color: #1db954;
+                    color: #fff;
+                    font-size: 40px;
+                }
+
+                #countdown {
+                    font-size: 40px;
+                    color: #fff; /* Bílá barva textu */
+                }
+              </style>
+
+              <div id="countdown">10</div>
+              <script>
+                // Funkce pro spuštění odpočtu
+                function startCountdown() {
+                    var countdown = 10; // Počáteční hodnota
+                    var countdownElement = document.getElementById('countdown');
+
+                    function updateCountdown() {
+                        countdownElement.textContent = countdown;
+                        countdown--;
+
+                        if (countdown < 0) {
+                            clearInterval(interval);
+                            countdownElement.textContent = 'Čas vypršel!';
+                        }
+                    }
+
+                    updateCountdown(); // Zobrazíme počáteční hodnotu
+
+                    var interval = setInterval(updateCountdown, 1000); // Aktualizace každou sekundu
+                }
+
+                // Spustíme odpočet po načtení stránky
+                window.onload = startCountdown;
+              </script>
+            </div>
           </div>
         </div>
       </div>
