@@ -1,0 +1,341 @@
+.navbar-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  max-width: 1200px;
+  align-self: auto;
+  align-items: center;
+  flex-shrink: 1;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.navbar-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-text {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: 0px;
+}
+.navbar-text1 {
+  color: #a1a1a1;
+  font-size: 25px;
+}
+.navbar-nav-content {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-nav-links {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.navbar-link {
+  text-decoration: none;
+}
+.navbar-link01 {
+  text-decoration: none;
+}
+.navbar-link02 {
+  text-decoration: none;
+}
+.navbar-link03 {
+  text-decoration: none;
+}
+.navbar-link04 {
+  text-decoration: none;
+}
+.navbar-link05 {
+  text-decoration: none;
+}
+.navbar-link06 {
+  display: contents;
+}
+.navbar-get-started {
+  text-decoration: none;
+}
+.navbar-text2 {
+  color: rgb(255, 255, 255);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-hamburger {
+  display: none;
+}
+.navbar-image {
+  width: 100px;
+  object-fit: cover;
+}
+.navbar-mobile-menu {
+  gap: var(--dl-space-space-twounits);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: #fff;
+}
+.navbar-branding {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-image1 {
+  width: 100px;
+  filter: brightness(0) saturate(100%);
+  object-fit: cover;
+}
+.navbar-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+}
+.navbar-nav-links1 {
+  gap: var(--dl-space-space-unit);
+  color: var(--dl-color-gray-black);
+  display: flex;
+  flex-direction: column;
+}
+.navbar-text3 {
+  color: rgba(255, 255, 255, 1);
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-container4 {
+  display: contents;
+}
+
+
+
+
+@media(max-width: 767px) {
+  .navbar-navbar {
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .navbar-nav-links {
+    display: none;
+  }
+  .navbar-get-started {
+    display: none;
+  }
+  .navbar-hamburger {
+    display: flex;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .navbar-image {
+    width: 16px;
+    height: 14px;
+  }
+  .navbar-branding {
+    width: 100%;
+  }
+  .navbar-nav-links1 {
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+}
+
+.miner-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, rgb(113, 0, 255) 0.00%,rgb(15, 15, 15) 99.00%);
+}
+.miner-container1 {
+  width: 100%;
+  height: 202px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.miner-heading {
+  color: rgb(179, 179, 179);
+  opacity: 0.5;
+  font-size: 30px;
+}
+.miner-text {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+.miner-text01 {
+  font-style: normal;
+  font-weight: 800;
+}
+.miner-container2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.miner-container3 {
+  flex: 0 0 auto;
+  width: 416px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.miner-container4 {
+  width: 416px;
+  height: 220px;
+}
+.miner-container5 {
+  display: contents;
+}
+.miner-text04 {
+  color: #ffffff;
+  font-size: 15px;
+}
+.miner-container6 {
+  flex: 0 0 auto;
+  width: 484px;
+  height: 479px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.miner-text05 {
+  color: #ffffff;
+}
+.miner-text08 {
+  line-height: 1.2;
+}
+.miner-text10 {
+  color: #0096ff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.miner-text11 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text12 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text13 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text14 {
+  color: #0096ff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.miner-text15 {
+  color: #0096ff;
+  font-size: 23px;
+}
+.miner-text16 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text17 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text18 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text19 {
+  color: #0096ff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.miner-text20 {
+  color: #0096ff;
+  font-size: 23px;
+}
+.miner-text21 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text22 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text23 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-text24 {
+  color: #0096ff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.miner-text25 {
+  color: #0096ff;
+  font-size: 23px;
+}
+.miner-text26 {
+  color: #bbbbbb;
+  font-size: 23px;
+}
+.miner-container7 {
+  width: 100%;
+  height: 245px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.miner-text28 {
+  color: rgb(255, 255, 255);
+}

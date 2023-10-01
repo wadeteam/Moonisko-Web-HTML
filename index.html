@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Moonisko Web</title>
+    <meta
+      name="description"
+      content="First BTC Earning platform build on Discord."
+    />
+    <meta property="og:title" content="Moonisko Web" />
+    <meta
+      property="og:description"
+      content="First BTC Earning platform build on Discord."
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b8b9a464-b5ab-4443-ace0-8a57311a2c10/1301e360-4b0d-4160-bf08-279960bce197?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/moonlogo (2).png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <nav class="navbar-navbar navbar-root-class-name">
+          <div class="navbar-container">
+            <h1 class="navbar-text"><span>MOON</span></h1>
+            <h1 class="navbar-text1"><span>-BOT.EU</span></h1>
+          </div>
+          <div class="navbar-nav-content">
+            <div class="navbar-container1">
+              <div class="navbar-nav-links">
+                <a
+                  href="https://moon-bot.eu/features"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar-link nav-link"
+                >
+                  Features
+                </a>
+                <a
+                  href="https://moon-bot.eu/tos"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar-link01 nav-link"
+                >
+                  Terms of service
+                </a>
+                <a
+                  href="https://moon-bot.eu/partners"
+                  class="navbar-link02 nav-link"
+                >
+                  Partners
+                </a>
+                <a href="support.html" class="navbar-link03 nav-link">
+                  Support
+                </a>
+                <a
+                  href="https://moon-bot.eu/miner-info"
+                  class="navbar-link04 nav-link"
+                >
+                  <span>Miner</span>
+                </a>
+                <a
+                  href="https://moon-bot.eu/vote"
+                  class="navbar-link05 nav-link"
+                >
+                  <span>Vote</span>
+                </a>
+              </div>
+            </div>
+            <a href="https://moon-bot.eu/get-started" class="navbar-link06">
+              <div class="navbar-get-started get-started">
+                <span class="navbar-text2">Start Earning</span>
+              </div>
+            </a>
+            <div id="open-mobile-menu" class="navbar-hamburger get-started">
+              <img
+                alt="image"
+                src="public/Icons/hamburger-200h.png"
+                class="navbar-image"
+              />
+            </div>
+          </div>
+          <div id="mobile-menu" class="navbar-mobile-menu">
+            <div class="navbar-branding">
+              <img
+                alt="image"
+                src="public/Branding/planical7012-ttpb.svg"
+                class="navbar-image1"
+              />
+              <div id="close-mobile-menu" class="navbar-container2">
+                <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                  <path
+                    d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="navbar-nav-links1">
+              <span class="nav-link">Features</span>
+              <span class="nav-link">Why us</span>
+              <span class="nav-link">Prices</span>
+              <span class="nav-link">Contact</span>
+            </div>
+            <div class="get-started">
+              <span class="navbar-text3">Get started</span>
+            </div>
+          </div>
+          <div>
+            <div class="navbar-container4">
+              <script>
+                    /*
+                Mobile menu - Code Embed
+                */
+
+                /* listenForUrlChangesMobileMenu() makes sure that if you changes pages inside your app,
+                the mobile menu will still work*/
+
+                const listenForUrlChangesMobileMenu = () => {
+                    let url = location.href;
+                    document.body.addEventListener('click', () => {
+                        requestAnimationFrame(() => {
+                            if (url !== location.href) {
+                                runMobileMenuCodeEmbed();
+                                url = location.href;
+                            }
+                        });
+                    },
+                    true
+                    );
+                };
+
+                const runMobileMenuCodeEmbed = () => {
+                    // Mobile menu
+                    const mobileMenu = document.querySelector('#mobile-menu')
+
+                    // Buttons
+                    const closeButton = document.querySelector('#close-mobile-menu')
+                    const openButton = document.querySelector('#open-mobile-menu')
+
+                    // On openButton click, set the mobileMenu position left to -100vw
+                    openButton && openButton.addEventListener('click', function() {
+                        mobileMenu.style.transform = 'translateX(0%)'
+                    })
+
+                    // On closeButton click, set the mobileMenu position to 0vw
+                    closeButton && closeButton.addEventListener('click', function() {
+                        mobileMenu.style.transform = 'translateX(100%)'
+                    })
+                }
+
+                runMobileMenuCodeEmbed()
+                listenForUrlChangesMobileMenu()
+              </script>
+            </div>
+          </div>
+        </nav>
+        <section class="home-section">
+          <div class="home-hero">
+            <div class="home-content">
+              <main class="home-main">
+                <header class="home-header">
+                  <h1 class="home-heading">
+                    <span class="home-text">The easiest way</span>
+                    <br class="home-text01" />
+                    <span class="home-text02">to earn satoshis</span>
+                    <br class="home-text03" />
+                    <span class="home-text04">anywhere.</span>
+                    <br class="home-text05" />
+                  </h1>
+                  <span class="home-caption">
+                    <span>Now you can earn BTC anytime and anywhere. You</span>
+                    <br />
+                    <span>just need to open Discord.</span>
+                    <br />
+                  </span>
+                </header>
+                <div class="home-buttons">
+                  <div class="home-get-started button">
+                    <span class="home-text10">Invite MOON</span>
+                  </div>
+                  <div class="home-get-started1 button">
+                    <span class="home-text11">Join Support server</span>
+                  </div>
+                </div>
+              </main>
+              <div class="home-highlight">
+                <div class="home-avatars">
+                  <img
+                    alt="image"
+                    src="https://cdn.discordapp.com/attachments/985557139814768641/1157387355129393202/stazeny_soubor_9.jpg?ex=65186c78&amp;is=65171af8&amp;hm=13f298f97df54199b9e11c599e9ff50fc1d03c194a786c6a29de9b88d2ffd88a&amp;"
+                    class="home-image avatar"
+                  />
+                  <img
+                    alt="image"
+                    src="https://cdn.discordapp.com/attachments/985557139814768641/1157387354894499860/sketch-1696013027739.png?ex=65186c78&amp;is=65171af8&amp;hm=ffbe2a9af98ebd45197e34834dd0bff425c1ae1656a9360bbecf7711d91974e1&amp;"
+                    class="home-image1 avatar"
+                  />
+                  <img
+                    alt="image"
+                    src="https://cdn.discordapp.com/attachments/985557139814768641/1157387355406209104/rsz_nove_logo_velke-1.png?ex=65186c78&amp;is=65171af8&amp;hm=b1e38c1fff2b6ebe6ff2cbaad633050bef775004d7a6ecdef6fb229103b0876b&amp;"
+                    class="home-image2 avatar"
+                  />
+                </div>
+                <label class="home-caption1">
+                  <span>Trusted by</span>
+                  <span class="home-text13">25+ servers.</span>
+                </label>
+              </div>
+            </div>
+            <div class="home-image3">
+              <img
+                alt="image"
+                src="https://cdn.discordapp.com/attachments/985557139814768641/1157384362011132036/sketch-1696012288304.png?ex=651869af&amp;is=6517182f&amp;hm=cec4853f96fb60f31f489799f30afd81d5375ca819433039e46242b14b2d9d9b&amp;"
+                class="home-image4"
+              />
+            </div>
+            <div class="home-image5">
+              <img
+                alt="image"
+                src="public/SectionImages/heroimage-1500h.png"
+                class="home-image6"
+              />
+            </div>
+          </div>
+          <span>Text</span>
+        </section>
+        <section class="home-section1">
+          <header class="home-header1">
+            <header class="home-left">
+              <span class="home-section2 section-head">
+                DISCOVER MOON FEATURES
+              </span>
+              <h2 class="section-heading">
+                <span>Lot of ways to earn bitcoin!</span>
+                <br />
+                <span>We recommend:</span>
+                <br />
+              </h2>
+            </header>
+            <div class="home-right">
+              <p class="home-paragraph section-description">
+                <span>
+                  Complete shortlinks, claim from faucet, boost our server,
+                  invite friends, mine using miner, claim daily reward,
+                  learn2earn and lot of more!
+                </span>
+                <br />
+              </p>
+            </div>
+          </header>
+          <main class="home-cards">
+            <section class="card-card card-root-class-name">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201316-200w.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span>Earn with Partners</span></h1>
+                <p class="card-description">
+                  <span>
+                    Bored of MOON? You can earn with our partners and withdraw
+                    to MOON Wallet!
+                  </span>
+                </p>
+              </main>
+            </section>
+            <section class="card-card card-root-class-name1">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201314-200h.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span>Complete Shortlinks</span></h1>
+                <p class="card-description">
+                  <span>
+                    Click on links, complete captcha and get paid in BTC!
+                    Rewards up to 50 sats/task.
+                  </span>
+                </p>
+              </main>
+            </section>
+            <section class="card-card card-root-class-name2">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201317-200h.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span>Daily Reward</span></h1>
+                <p class="card-description">
+                  <span>
+                    You can claim FREE sats every day from MOON Faucet. Did you
+                    claim it today?
+                  </span>
+                </p>
+              </main>
+            </section>
+          </main>
+        </section>
+        <section class="home-section3">
+          <header class="home-header2">
+            <h2 class="home-text21">
+              We use Ligtning-Network for instant and cheap withdrawals!
+            </h2>
+            <span class="home-text22">
+              <span>
+                You've never used Lightning-Network? Now is the time, MOON will
+                help you.
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </span>
+          </header>
+          <section class="home-note">
+            <div class="home-content1">
+              <div class="home-main1">
+                <div class="home-caption2">
+                  <span class="home-section4 section-head">WHY TRY MOON?</span>
+                </div>
+                <div class="home-heading02">
+                  <h2 class="home-heading03 section-heading">
+                    The biggest advantages of MOON
+                  </h2>
+                </div>
+              </div>
+              <div class="home-container1">
+                <div class="home-container2">
+                  <div class="home-icon">
+                    <img
+                      alt="image"
+                      src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                      class="home-icon01"
+                    />
+                  </div>
+                  <div class="home-icon02">
+                    <img
+                      alt="image"
+                      src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                      class="home-icon03"
+                    />
+                  </div>
+                  <div class="home-icon04">
+                    <img
+                      alt="image"
+                      src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                      class="home-icon05"
+                    />
+                  </div>
+                </div>
+                <h2 class="home-heading04 section-heading">
+                  <span>&nbsp; &nbsp; Withdrawals using LN</span>
+                  <br />
+                  <span>
+                    &nbsp; &nbsp; Accesible on every device with Discord
+                  </span>
+                  <br />
+                  <span>&nbsp; &nbsp; Instant Withdrawals from 10k sats</span>
+                  <br />
+                </h2>
+              </div>
+              <div class="home-get-started2 button">
+                <span class="home-text36">Get started</span>
+              </div>
+            </div>
+            <div class="home-container3">
+              <div class="home-icon06">
+                <img
+                  alt="image"
+                  src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                  class="home-icon07"
+                />
+              </div>
+              <div class="home-icon08">
+                <img
+                  alt="image"
+                  src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                  class="home-icon09"
+                />
+              </div>
+              <div class="home-icon10">
+                <img
+                  alt="image"
+                  src="https://cdn.discordapp.com/attachments/985557139814768641/1157402750368366652/33281.png?ex=65187acf&amp;is=6517294f&amp;hm=ba3dc73d9304230c1aea0147d0588e8411f132ffa9021825d5cfeafe1966a90c&amp;"
+                  class="home-icon11"
+                />
+              </div>
+            </div>
+            <h2 class="home-heading05 section-heading">
+              <span>&nbsp; &nbsp; Connections with our partners</span>
+              <br />
+              <span>&nbsp; &nbsp; Leveling System</span>
+              <br />
+              <span>&nbsp; &nbsp; Fast Discord support</span>
+              <br />
+            </h2>
+          </section>
+        </section>
+        <section class="home-section5">
+          <div class="home-cube">
+            <div class="home-top side"></div>
+            <div class="home-front side"></div>
+            <div class="home-left1 side"></div>
+          </div>
+          <main class="home-banner">
+            <div class="home-header3">
+              <h2 class="section-heading">
+                Bitcoin is the future of payments.
+              </h2>
+              <p class="home-description section-description">
+                Rack up as many sats as you can before it's too late.
+              </p>
+            </div>
+            <div class="home-buttons1">
+              <div class="home-get-started3 button">
+                <span class="home-text43">Start Today!</span>
+              </div>
+            </div>
+          </main>
+        </section>
+        <section class="home-section6">
+          <div class="home-cube1">
+            <div class="home-top1 side"></div>
+            <div class="home-front1 side"></div>
+            <div class="home-left2 side"></div>
+          </div>
+          <main class="home-pricing">
+            <header class="home-header4">
+              <header class="home-left3">
+                <span class="home-section7 section-head">MOON BETA</span>
+                <h2 class="section-heading home-heading07">
+                  Open BETA is now LIVE
+                </h2>
+              </header>
+              <div class="home-right1">
+                <p class="home-paragraph1 section-description">
+                  We have started public testing of the BETA version of our bot.
+                  Be one of the first to try it out!
+                </p>
+              </div>
+            </header>
+          </main>
+          <div class="home-help">
+            <span class="home-text44">
+              <span>Found bug? Report it!&nbsp;&nbsp;</span>
+              <br />
+            </span>
+            <div class="home-contact-support">
+              <p class="home-text47">Contact support -&gt;</p>
+            </div>
+          </div>
+        </section>
+        <section class="home-section8">
+          <main class="home-content2">
+            <header class="home-header5">
+              <h2 class="home-heading08 section-heading">
+                Stop scrolling on our website and try MOON now!
+              </h2>
+              <div class="home-buttons2">
+                <div class="home-ios button">
+                  <span class="home-text48">Invite MOON</span>
+                </div>
+                <div class="home-android button">
+                  <span class="home-text49">Try it on our server</span>
+                </div>
+              </div>
+            </header>
+            <img
+              alt="image"
+              src="https://cdn.discordapp.com/attachments/985557139814768641/1157394713977040926/sketch-1696014772190.png?ex=65187353&amp;is=651721d3&amp;hm=2286487280f6ac2593862af5a538c9093e7b8fc450f310e1e0ab787cc8384f65&amp;"
+              class="home-image7"
+            />
+          </main>
+        </section>
+        <footer class="home-footer">
+          <div class="home-content3">
+            <main class="home-main-content">
+              <div class="home-content4">
+                <header class="home-main2">
+                  <div class="home-header6">
+                    <img
+                      alt="image"
+                      src="public/Branding/planical7012-ttpb.svg"
+                      class="home-branding"
+                    />
+                    <span class="home-text50">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </div>
+                  <div class="home-socials">
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/linkedin-200h.png"
+                        class="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link1"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/instagram-200h.png"
+                        class="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link2"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/twitter-200h.png"
+                        class="social"
+                      />
+                    </a>
+                  </div>
+                </header>
+                <header class="home-categories">
+                  <div class="home-category">
+                    <div class="home-header7">
+                      <span class="footer-header">Solutions</span>
+                    </div>
+                    <div class="home-links">
+                      <span class="footer-link">Responsive Web Design</span>
+                      <span class="footer-link">Responsive Prototypes</span>
+                      <span class="footer-link">Design to Code</span>
+                      <span class="footer-link">Static Website Builder</span>
+                      <span class="footer-link">Static Website Generator</span>
+                    </div>
+                  </div>
+                  <div class="home-category1">
+                    <div class="home-header8">
+                      <span class="footer-header">Company</span>
+                    </div>
+                    <div class="home-links1">
+                      <span class="footer-link">About</span>
+                      <span class="footer-link">Team</span>
+                      <span class="footer-link">News</span>
+                      <span class="footer-link">Partners</span>
+                      <span class="footer-link">Careers</span>
+                      <span class="footer-link">Press &amp; Media</span>
+                    </div>
+                  </div>
+                </header>
+              </div>
+              <section class="home-copyright">
+                <span class="home-text64">
+                  © 2022 latitude. All Rights Reserved.
+                </span>
+              </section>
+            </main>
+            <main class="home-subscribe">
+              <main class="home-main3">
+                <h1 class="home-heading09">Subscribe to our newsletter</h1>
+                <div class="home-input-field">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="home-textinput input"
+                  />
+                  <div class="home-buy button">
+                    <span class="home-text65">-&gt;</span>
+                    <span class="home-text66">
+                      <span>Subscribe now</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+              </main>
+              <h1 class="home-notice">
+                By subscribing to our newsletter you agree with our Terms and
+                Conditions.
+              </h1>
+            </main>
+            <section class="home-copyright1">
+              <span class="home-text69">
+                © 2022 latitude. All Rights Reserved.
+              </span>
+            </section>
+          </div>
+        </footer>
+        <div>
+          <div class="home-container5">
+            <script>
+                  /*
+              Accordion - Code Embed
+              */
+
+              /* listenForUrlChangesAccordion() makes sure that if you changes pages inside your app,
+              the Accordions will still work*/
+
+              const listenForUrlChangesAccordion = () => {
+                    let url = location.href;
+                    document.body.addEventListener(
+                      'click',
+                      () => {
+                        requestAnimationFrame(() => {
+                          if (url !== location.href) {
+                            runAccordionCodeEmbed();
+                            url = location.href;
+                          }
+                        });
+                      },
+                      true
+                    );
+                  };
+
+
+              const runAccordionCodeEmbed = () => {
+                  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
+                  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
+                  const accordionIcons = document.querySelectorAll('[data-role='accordion-icon']'); // All accordion icons
+
+                  accordionContents.forEach((accordionContent) => {
+                      accordionContent.style.display = 'none'; //Hides all accordion contents
+                  });
+
+                  accordionContainers.forEach((accordionContainer, index) => {
+                      accordionContainer.addEventListener('click', () => {
+                          accordionContents.forEach((accordionContent) => {
+                          accordionContent.style.display = 'none'; //Hides all accordion contents
+                          });
+
+                          accordionIcons.forEach((accordionIcon) => {
+                              accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+                          });
+
+                          accordionContents[index].style.display = 'flex'; // Shows accordion content
+                          accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                      });
+                  });
+              }
+
+              runAccordionCodeEmbed()
+              listenForUrlChangesAccordion()
+
+              /*
+              Here's what the above is doing:
+                  1. Selects all accordion containers, contents, and icons
+                  2. Hides all accordion contents
+                  3. Adds an event listener to each accordion container
+                  4. When an accordion container is clicked, it:
+                      - Hides all accordion contents
+                      - Resets all icon transforms to 0deg (default)
+                      - Checks if this container has class 'accordion-open'
+                          - If it does, it removes class 'accordion-open'
+                          - If it doesn't, it:
+                              - Removes class 'accordion-open' from all containers
+                              - Adds class 'accordion-open' to this container
+                              - Shows accordion content
+                              - Rotates accordion icon 180deg
+              */
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

